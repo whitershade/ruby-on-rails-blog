@@ -5,7 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-
+gem 'bcrypt', platforms: :ruby
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.1'
 # Use Puma as the app server
@@ -55,6 +55,10 @@ group :test do
   gem 'selenium-webdriver', '2.53.4'
   gem 'capybara', '>= 2.1.0'
   gem 'poltergeist'
+  gem 'guard-rspec', '>= 2.5.0'
+  gem 'rb-notifu', '0.0.4'
+  gem 'win32console', '1.3.2'
+  gem 'wdm', '0.1.1'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
