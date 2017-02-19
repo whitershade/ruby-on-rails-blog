@@ -54,6 +54,7 @@ end
 group :test do
   gem 'selenium-webdriver', '2.53.4'
   gem 'capybara', '>= 2.1.0'
+  gem 'poltergeist'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
