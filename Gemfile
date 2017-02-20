@@ -44,6 +44,7 @@ group :development do
   gem 'pg', '>= 0.15.1'
   gem 'rails_12factor'
   gem 'rspec-rails', '>= 2.13.1'
+  gem 'bootstrap-sass'
 end
 
 group :production do
